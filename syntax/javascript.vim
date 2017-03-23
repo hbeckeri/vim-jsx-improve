@@ -12,8 +12,6 @@ if !exists("main_syntax")
   let main_syntax = 'javascript'
 endif
 
-syntax iskeyword @,48-57,_,192-255,$
-
 syntax sync fromstart
 " TODO: Figure out what type of casing I need
 " syntax case ignore
